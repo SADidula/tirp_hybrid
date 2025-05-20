@@ -1,0 +1,29 @@
+# General Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# Flask specific ignores
+instance/
+logs/
+*.log
+
+# React specific ignores
+node_modules/
+build/
+public/
+*.lock
+yarn-error.log
+
+# OS or Editor Folders
+.vscode/
+.idea/
+*.swp
+*.~
+Thumbs.db
